@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "845787347648",
+    "firebase_url": "https://rentify-3c038-default-rtdb.firebaseio.com",
+    "project_id": "rentify-3c038",
+    "storage_bucket": "rentify-3c038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845787347648:android:d2cb5fe878297db0084b25",
+        "android_client_info": {
+          "package_name": "com.group20.rentify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ZTpJtjXaT1Qs92JErm2VNUvn8M2--Wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Rentify</string>
+    <string name="title_activity_create_account_interface">CreateAccountInterface</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="text_email">Email/Username:</string>
+    <string name="text_password">Password:</string>
+    <string name="button_signIn">Sign In</string>
+    <string name="button_createAccount">Create Account</string>
+    <string name="text_createAccount">"Don't have an account "</string>
+    <string name="input_email">Email</string>
+    <string name="header">Rentify</string>
+    <string name="category1Details">This is the description for category 1</string>
+    <string name="category1Title">Category 1</string>
+    <string name="categoryPageTitle">CATEGORIES</string>
+    <string name="category2Title">Category 2</string>
+    <string name="category2Details">This is the description for category 2</string>
+    <string name="manageCategoriesButton">Manage Categories</string>
+
+    <string name="editCategoryHeading">Edit Category</string>
+    <string name="informationMessage">Enter the category name and description below</string>
+    <string name="hintCategoryName">Category Name</string>
+    <string name="hintCategoryDescription">Category Description</string>
+    <string name="doneCreatingCategory">DONE</string>
+    <string name="categoryAdd">Add Category</string>
+<!--    <string name="hintItemName">Item Name</string>-->
+
+    <string name="viewAllUsers">View All Users</string>
+    <string name="accountPageTitle">ACCOUNTS</string>
+    <string name="showAllCategories">Manage Categories</string>
+    <string name="text_manage_categories">Manage Categories</string>
+    <string name="text_done">Done</string>
+    <string name="searchButton">Search</string>
+
+    <string name="disableButtonText">Disable Account</string>
+    <string name="deleteButtonText">Delete Account</string>
+
+    <string name="itemPageTitle">ITEMS</string>
+    <string name="addItemHeading">Add Item</string>
+    <string name="infromationMessageEditIem">Enter the item\'s name, description, rental period, and rental fee below</string>
+    <string name="hintItemName">Item Name</string>
+    <string name="hintItemDescription">Item Description</string>
+    <string name="hintItemPeriod">Rental Period</string>
+    <string name="hintItemFee">Rental Fee</string>
+    <string name="headingLessorDashboard">Lessor Dashboard</string>
+    <string name="titleCategoriesForLessor">Categories:</string>
+    <string name="subtitleCategoriesForLessor">Click on each category to see the items</string>
+    <string name="hintItemCategory">Choose a category for your item from the menu below</string>
+    <string name="requestPageTitle">Requests</string>
+    <string name="registerTitle">REGISTER</string>
+    <string name="createAdminButton">OR, create an admin account</string>
+
+    <string name="admin_dashboard_description">Welcome, manage users and categories here</string>
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="searchitem">Search for an Item</string>
+
+</resources>

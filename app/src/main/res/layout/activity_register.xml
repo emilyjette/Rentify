@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/cardColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="682dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#00F6F2F2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/RegisterTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/registerTitle"
+                android:textAlignment="textStart"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/welcomeMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Welcome to rentify, create an account to get started!"
+                android:textColor="@color/textColor"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailEnter"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/textColor"
+                android:backgroundTint="@color/textColor"
+                android:hint="Enter your Email"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/usernameEnter"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/textColor"
+                android:backgroundTint="@color/textColor"
+                android:hint="Create a Username"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/firstNameEnter"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/textColor"
+                android:backgroundTint="@color/textColor"
+                android:hint="First Name"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/lastNameEnter"
+                android:textColorHint="@color/textColor"
+                android:backgroundTint="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="Last Name"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/passwordEnter"
+                android:textColorHint="@color/textColor"
+                android:backgroundTint="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/passwordEnter2"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="Re-enter your password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/textColor"
+                android:backgroundTint="@color/textColor"
+                android:textSize="14sp" />
+
+
+            <RadioGroup
+                android:id="@+id/selectRole"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkedButton="@id/renterSelect"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/renterSelect"
+                    android:textColor="@color/textColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Renter"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/lenderSelect"
+                    android:textColor="@color/textColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lendor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/adminCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/createAdminButton"
+                android:textAlignment="center"
+                android:textColor="#A16ED8"
+                android:textColorHighlight="#920000"
+                android:textColorHint="#8A0000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg"
+                android:text="Sign Up"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
