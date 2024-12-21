@@ -6,6 +6,8 @@ import com.group20.rentify.entity.LessorRole;
 
 import java.util.List;
 
+//Author @emilyjette
+
 public class ItemController {
     private static ItemController instance;
 

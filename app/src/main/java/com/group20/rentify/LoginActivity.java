@@ -19,6 +19,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.group20.rentify.controller.FormController;
 
+/*
+Author @emilyjette
+ */
 public class LoginActivity extends AppCompatActivity {
 
     private EditText emailInput;

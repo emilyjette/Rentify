@@ -21,6 +21,9 @@ import com.group20.rentify.entity.LessorRole;
 
 import java.util.List;
 
+//Author @emilyjette
+
+
 public class ViewItemActivity extends ManageEntitiesActivity<Item> {
 
     private ItemController controller;

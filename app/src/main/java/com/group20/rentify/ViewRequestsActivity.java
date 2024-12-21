@@ -12,6 +12,8 @@ import com.group20.rentify.entity.Request;
 import java.util.ArrayList;
 import java.util.List;
 
+// Author @emilyjette
+
 public class ViewRequestsActivity extends ManageEntitiesActivity<Request> {
 
     private List<Request> requestList;

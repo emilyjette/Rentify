@@ -6,6 +6,8 @@ import com.group20.rentify.entity.Request;
 
 import java.util.List;
 
+//Author @emilyjette
+
 public class RequestController {
     private static RequestController instance;
 
